@@ -1,0 +1,43 @@
+[mgr]
+linemode = "size"
+show_hidden = false
+show_symlink = true
+
+[preview]
+wrap = "yes"
+image_filter = "nearest"
+
+[opener]
+play = [
+	{ run = "mpv --player-operation-mode=pseudo-gui %s", desc = "Play" , orphan = true },
+]
+edit = [
+	{ run = "howl %s", desc = "Edit", orphan = true },
+]
+open = [
+    { run = 'xdg-open "$1"', desc = "Open", orphan = true },
+]
+
+[open]
+prepend_rules = [
+	{ url = "*.json", use = "edit" },
+
+	# Multiple openers for a single rule
+	{ url = "*.html", use = [ "open", "edit" ] },
+]
+
+[plugin]
+
+prepend_previewers = [
+    { url = "*.csv", run = "rich-preview"}, # for csv files
+    { url = "*.md", run = "rich-preview" }, # for markdown (.md) files
+    { url = "*.rst", run = "rich-preview"}, # for restructured text (.rst) files
+    { url = "*.ipynb", run = "rich-preview"}, # for jupyter notebooks (.ipynb)
+    { url = "*.json", run = "rich-preview"}, # for json (.json) files
+#   { url = "*.lang_type", run = "rich-preview"} # for particular language files eg. .py, .go., .lua, etc.
+# Replace magick, image, video with mediainfo
+    { mime = "{audio,video,image}/*", run = "mediainfo"},
+    { mime = "application/subrip", run = "mediainfo" },
+    # Adobe Illustrator, Adobe Photoshop is image/adobe.photoshop, already handled above
+    { mime = "application/postscript", run = "mediainfo" },
+]

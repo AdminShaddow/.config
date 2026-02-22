@@ -1,0 +1,17 @@
+[mgr]
+prepend_keymap = [
+  # MOUNT PLUGIN
+  { on  = "M", run = "plugin mount" },
+
+  # CHMOD PLUGIN
+  { on  = [ "c", "m" ], run  = "plugin chmod", desc = "Chmod on selected files" },
+
+  # RECYCLEBIN PLUGIN
+  { on = ["P","b"], run = "plugin recycle-bin",              desc = "Open Recycle Bin menu" },
+
+  # SMARTFILTER PLUGIN
+  { on   = "F", run  = "plugin smart-filter", desc = "Smart filter" },
+
+  # CLIPBOARD PLUGIN
+  { on = "<C-y>", run = ["plugin wl-clipboard"] },
+]

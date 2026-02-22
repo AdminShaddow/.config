@@ -1,0 +1,17 @@
+[[plugin.deps]]
+use = "wakaka6/yatline-dracula"
+rev = "598ea29"
+hash = "303f8ca9084dbdd15c640b1f7388f54d"
+
+[[plugin.deps]]
+use = "wekauwau/yatline-tokyo-night"
+rev = "b4a6310"
+hash = "215729a555fe5286f1eb35520963d08"
+
+[[plugin.deps]]
+use = "PepeRoConde/yatline-page-counter"
+rev = "12f7c94"
+hash = "92b0857ea41fc9f27069ad25d6351d9f"
+
+[flavor]
+deps = []
