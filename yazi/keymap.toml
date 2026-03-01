@@ -14,4 +14,10 @@ prepend_keymap = [
 
   # CLIPBOARD PLUGIN
   { on = "<C-y>", run = ["plugin wl-clipboard"] },
+  { on  = [ "c","p"], run = [ 'shell -- for path in %s; do echo "file://$path"; done | wl-copy -t text/uri-list', "yank" ], desc = "Copy the file/dir to clipboard" },
+  { on = ["g","n"], run = "cd /etc/nixos", desc = "Go Nix-conf"  },
+  { on = ["g","p"], run = "cd ~/Bilder", desc = "Go Pictures"  },
+  { on = ["g","D"], run = "cd ~/Dokumente", desc = "Go Documents"  },
+  { on = ["g","a"], run = "cd ~/media/Archive", desc = "Go Archive"  },
 ]
+

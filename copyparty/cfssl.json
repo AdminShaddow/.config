@@ -1,0 +1,1 @@
+{"signing": {"default": {"backdate": "4320m", "expiry": "525600m", "usages": ["signing", "key encipherment", "server auth"]}}}

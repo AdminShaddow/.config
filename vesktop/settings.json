@@ -1,8 +1,9 @@
 {
     "splashColor": "rgb(220, 220, 223)",
-    "splashBackground": "rgb(0, 0, 0)",
+    "splashBackground": "rgb(26, 26, 47)",
     "spellCheckLanguages": [
         "de",
         "de-DE"
-    ]
+    ],
+    "hardwareVideoAcceleration": true
 }

@@ -35,10 +35,10 @@
 
 /* main colors */
 
-@define-color accent        #67BA4E;
+@define-color accent        @lavender;
 @define-color main-br       @subtext0;
 @define-color main-bg       @crust;
-@define-color main-fg       @green;
+@define-color main-fg       @text;
 @define-color hover-bg      @base;
 @define-color hover-fg      alpha(@main-fg, 0.75);
 @define-color outline       shade(@main-bg, 0.5);

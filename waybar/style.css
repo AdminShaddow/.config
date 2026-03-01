@@ -17,11 +17,11 @@
 }
 
 #waybar {
-	background-color: transparent;
+	background-color: @transparent;
 }
 #waybar > box {
 	margin: 4px;
-	background-color: rgba(132, 255, 0, 0);
+	background-color: rgba(50, 0, 90, 0.3);
 }
 
 button {

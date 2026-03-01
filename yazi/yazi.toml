@@ -1,6 +1,6 @@
 [mgr]
 linemode = "size"
-show_hidden = false
+show_hidden = true
 show_symlink = true
 
 [preview]
@@ -12,18 +12,34 @@ play = [
 	{ run = "mpv --player-operation-mode=pseudo-gui %s", desc = "Play" , orphan = true },
 ]
 edit = [
-	{ run = "howl %s", desc = "Edit", orphan = true },
+	{ run = "kitty -e nvim %s", desc = "nvim", orphan = true },
+	{ run = "howl %s", desc = "howl", orphan = true },
+	{ run = "kitty -e vscode %s", desc = "vscode", orphan = true },
+]
+image = [
+    { run = "qimgv %s", desc = "qimgv", orphan = true },
 ]
 open = [
-    { run = 'xdg-open "$1"', desc = "Open", orphan = true },
+	{ run = 'chromium "$1"', desc = "chromium", orphan = true },
+   	{ run = 'xdg-open "$1"', desc = "Open", orphan = true },
 ]
+
 
 [open]
 prepend_rules = [
 	{ url = "*.json", use = "edit" },
+	{ url = ".gitignore", use = "edit" },
 
 	# Multiple openers for a single rule
 	{ url = "*.html", use = [ "open", "edit" ] },
+    	{ url = "*.pdf", use = [ "open", "libreoffice" ] },
+	
+	{ mime = "text/*", use = "edit" },
+	{ mime = "video/*", use = "play" },
+    	{ mime = "image/*", use = "image" },
+    	{ mime = "text/directory", use = "open" },
+    	{ mime = "image/*", use = "image" },
+
 ]
 
 [plugin]
