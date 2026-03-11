@@ -12,9 +12,9 @@ play = [
 	{ run = "mpv --player-operation-mode=pseudo-gui %s", desc = "Play" , orphan = true },
 ]
 edit = [
-	{ run = "kitty -e nvim %s", desc = "nvim", orphan = true },
+	{ run = "codium %s", desc = "vscode", orphan = true },
 	{ run = "howl %s", desc = "howl", orphan = true },
-	{ run = "kitty -e vscode %s", desc = "vscode", orphan = true },
+	{ run = "kitty -e nvim %s", desc = "nvim", orphan = true },
 ]
 image = [
     { run = "qimgv %s", desc = "qimgv", orphan = true },
@@ -33,7 +33,7 @@ prepend_rules = [
 	# Multiple openers for a single rule
 	{ url = "*.html", use = [ "open", "edit" ] },
     	{ url = "*.pdf", use = [ "open", "libreoffice" ] },
-	
+
 	{ mime = "text/*", use = "edit" },
 	{ mime = "video/*", use = "play" },
     	{ mime = "image/*", use = "image" },

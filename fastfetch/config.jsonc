@@ -2,9 +2,9 @@
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "color": {
-        "1": "white"
+        "1": "magenta"
         },
-        "source": "$HOME/.config/fastfetch/ascii/galaxy.txt",
+        "source": "$HOME/.config/fastfetch/ascii/spamton.txt",
         "padding": {
             "top": 1,
             "right": 2
@@ -12,7 +12,20 @@
 
     },
     "display": {
-      "separator": "  "
+      "separator": "→    ",
+      "disableLinewrap": true,
+      "key": {
+        "width": 0,       // Aligns keys to this width
+        "type": "both",   // string, icon, both, or none
+        "paddingLeft": 0
+      },
+      "bar": {
+        "width": 10,       // Width of percentage bars
+        "char": {
+            "elapsed": "█", // Character for elapsed portion
+            "total": "▒"    // Character for total portion
+        }
+      }
     },
     "modules": [
 
@@ -21,24 +34,28 @@
         "format": "{#1}╭────── User : {#}{user-name-colored}@{host-name-colored}"
       },
       {
+        "type": "uptime",
+        "key": "{#separator} Uptime    "
+      },
+      {
         "type": "custom",
-        "format": "{#1}│ {#}System Information"
+        "format": "{#1}│"
+      },
+      {
+        "type": "custom",
+        "format": "{#1}├─╼ {#}System Information"
       },
       {
         "type": "os",
-        "key": "{#separator}│  {#keys}󰍹 OS",
+        "key": "{#separator} OS        "
       },
       {
         "type": "kernel",
-        "key": "{#separator}│  {#keys}󰒋 Kernel"
-      },
-      {
-        "type": "uptime",
-        "key": "{#separator}│  {#keys}󰅐 Uptime"
+        "key": "{#separator} Kernel    "
       },
       {
         "type": "packages",
-        "key": "{#separator}│  {#keys}󰏓 Packages"
+        "key": "{#separator} Packages  "
       },
       {
         "type": "custom",
@@ -47,23 +64,19 @@
       // Desktop Environment
       {
         "type": "custom",
-        "format": "{#1}│ {#}Desktop Environment"
+        "format": "{#1}├─╼ {#}Desktop Environment"
       },
       {
         "type": "de",
-        "key": "{#separator}│  {#keys}󰧨 DE"
+        "key": "{#separator} DE        "
       },
       {
         "type": "wm",
-        "key": "{#separator}│  {#keys}󱂬 WM"
+        "key": "{#separator} WM        "
       },
       {
         "type": "wmtheme",
-        "key": "{#separator}│  {#keys}󰉼 Theme"
-      },
-      {
-        "type": "shell",
-        "key": "{#separator}│  {#keys}󰞷 Shell"
+        "key": "{#separator} Theme     "
       },
       {
         "type": "custom",
@@ -72,33 +85,30 @@
       // Hardware Information
       {
         "type": "custom",
-        "format": "{#1}│ {#}Hardware Information"
+        "format": "{#1}├─╼ {#}Hardware Information"
+      },
+      {
+        "type": "Board",
+        "key": "{#separator} Board     "
       },
       {
         "type": "cpu",
-        "key": "{#separator}│  {#keys}󰻠 CPU"
-      },
-      {
-        "type": "custom",
-        "key": "{#separator}│  {#keys}󰢮 GPU  AMD Radeon Vega Mobile Series"
+        "key": "{#separator} CPU       ",
+        "temp": true
       },
       {
         "type": "gpu",
-        "key": "{#separator}│  {#keys}󰍹 GPU Driver",
-        "format": "{driver}"
-      },
-      {
-        "type": "memory",
-        "key": "{#separator}│  {#keys}󰍛 Memory"
-      },
-      {
-        "type": "swap",
-        "key": "{#separator}│  {#keys}󰍛 Swap",
+        "key": "{#separator} GPU       "
       },
       {
         "type": "disk",
-        "key": "{#separator}│  {#keys}󰋊 Disk (/)",
-        "folders": "/"
+        "key": "{#separator} Disk (/)  ",
+        "folders": "/",
+        "percent": {
+            "type": 3,     // Show both percentage number and bar
+            "green": 30,   // Values below 30% in green
+            "yellow": 70   // 30-70% in yellow, >70% in red
+        }
       },
       {
         "type": "custom",
@@ -107,13 +117,13 @@
       // Colors
       {
         "type": "colors",
-        "key": "{#separator}│",
+        "key": "{#separator}           ",
         "symbol": "circle"
       },
       // Footer
       {
         "type": "custom",
-        "format": "{#1}╰───────────────────────────────╯"
+        "format": "{#1}╰───────────────────────────────────────────────────────────────────╯"
       }
     ]
   }

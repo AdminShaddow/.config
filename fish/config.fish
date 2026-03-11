@@ -48,5 +48,6 @@ set fish_greeting ""
 if status is-interactive
     # Commands to run in interactive sessions can go here
     starship init fish | source
-    fastfetch | lolcat -S 1 -p 20 -a -d 1 -s 1000
+    #fastfetch | lolcat -S 1 -p 200 -a -d 1 -s 1000
+    fastfetch
 end

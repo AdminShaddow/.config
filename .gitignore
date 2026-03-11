@@ -1,5 +1,8 @@
+# Directories
 environment.d/
+dconf/
 GIMP/
+gtk-3.0/
 gtk-4.0/
 jgit/
 lact/
@@ -25,3 +28,16 @@ VSCodium/
 xfce4/
 xm1/
 chromium/
+blender/
+clipse/
+forge/
+gdu/
+jgit/
+Kvantum/
+qt5ct/
+qt6ct/
+pulse/
+session/
+
+
+# Files
