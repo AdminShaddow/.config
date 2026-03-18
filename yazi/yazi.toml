@@ -12,7 +12,7 @@ play = [
 	{ run = "mpv --player-operation-mode=pseudo-gui %s", desc = "Play" , orphan = true },
 ]
 edit = [
-	{ run = "codium %s", desc = "vscode", orphan = true },
+	{ run = "code %s", desc = "vscode", orphan = true },
 	{ run = "howl %s", desc = "howl", orphan = true },
 	{ run = "kitty -e nvim %s", desc = "nvim", orphan = true },
 ]

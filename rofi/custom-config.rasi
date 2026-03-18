@@ -1,6 +1,6 @@
 configuration {
     combi-modes: "window,drun";
-    modes: "combi,calc";
+    modes: "combi,ssh";
     font: "mono 12";
 
     location: 0;
@@ -178,4 +178,4 @@ configuration {
       path: "/nix/store/hhc0d9mq7gq8spaqvp6xskhrw4w1x18c-rofi-2.0.0/lib/rofi";
   }
 }
-@theme ".config/rofi/theme.rasi"
+@theme "custom"

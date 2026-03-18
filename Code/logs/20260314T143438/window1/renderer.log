@@ -1,0 +1,13 @@
+2026-03-14 14:34:39.080 [info] Started local extension host with pid 15425.
+2026-03-14 14:34:40.180 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-14 14:34:40.332 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-14 14:34:41.901 [info] [perf] Render performance baseline is 134ms
+2026-03-14 14:34:49.905 [info] Started local extension host with pid 15546.
+2026-03-14 14:34:50.737 [error] [Extension Host] (node:15546) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-14 14:34:50.901 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-14 14:34:51.156 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-14 14:34:52.698 [info] [perf] Render performance baseline is 133ms
+2026-03-14 15:03:46.692 [error] An unknown error occurred. Please consult the log for more details.
+2026-03-14 15:09:13.630 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-03-14 15:11:25.639 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.statusWidget.sku

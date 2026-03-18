@@ -1,0 +1,5 @@
+2026-03-14 14:32:23.662 [info] update#setState idle
+2026-03-14 14:32:36.679 [info] Extension host with pid 7543 exited with code: 0, signal: unknown.
+2026-03-14 14:32:53.634 [info] update#setState checking for updates
+2026-03-14 14:32:53.771 [info] update#setState available for download
+2026-03-14 14:33:17.345 [info] Extension host with pid 7664 exited with code: 0, signal: unknown.

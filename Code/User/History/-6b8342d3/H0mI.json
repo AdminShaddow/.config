@@ -1,0 +1,5 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.insertFinalNewline": true,
+    "workbench.editor.empty.hint": "hidden"
+}

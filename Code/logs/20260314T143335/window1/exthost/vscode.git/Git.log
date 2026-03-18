@@ -1,0 +1,39 @@
+2026-03-14 14:33:37.154 [info] [main] Log level: Info
+2026-03-14 14:33:37.154 [info] [main] Validating found git in: "git"
+2026-03-14 14:33:37.154 [info] [main] Using git "2.53.0" from "git"
+2026-03-14 14:33:37.154 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-14 14:33:37.154 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-14 14:33:37.154 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-03-14 14:33:37.154 [info] [Model][openRepository] Opened repository (path): /etc/nixos
+2026-03-14 14:33:37.154 [info] [Model][openRepository] Opened repository (real path): /etc/nixos
+2026-03-14 14:33:37.154 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-14 14:33:37.154 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-14 14:33:37.154 [info] > git config --get commit.template [27ms]
+2026-03-14 14:33:37.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-14 14:33:37.165 [info] > git status -z -uall [6ms]
+2026-03-14 14:33:37.166 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-14 14:33:37.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-03-14 14:33:37.292 [info] > git config --get --local branch.main.vscode-merge-base [98ms]
+2026-03-14 14:33:37.292 [warning] [Git][config] git config failed: Failed to execute git
+2026-03-14 14:33:37.296 [info] > git config --get commit.template [106ms]
+2026-03-14 14:33:37.358 [info] > git reflog main --grep-reflog=branch: Created from *. [62ms]
+2026-03-14 14:33:37.377 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2026-03-14 14:33:37.377 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-03-14 14:33:37.377 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-03-14 14:33:37.384 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2026-03-14 14:33:37.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-03-14 14:33:37.394 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 03b8a5691dd68daadf2d88babca0d2532a6583c1...refs/remotes/origin/main -- [5ms]
+2026-03-14 14:33:37.407 [info] > git status -z -uall [6ms]
+2026-03-14 14:33:37.408 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-03-14 14:33:37.524 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-14 14:33:37.535 [info] > git ls-files --stage -- packages/0.2-pkgs.nix [1ms]
+2026-03-14 14:33:37.539 [info] > git show --textconv :packages/0.2-pkgs.nix [9ms]
+2026-03-14 14:33:37.540 [info] > git cat-file -s 63c4912122240f4fb5065ae62b1d2fc3983300d5 [1ms]
+2026-03-14 14:33:37.579 [info] > git blame --root --incremental 03b8a5691dd68daadf2d88babca0d2532a6583c1 -- packages/0.2-pkgs.nix [4ms]
+2026-03-14 14:33:37.624 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-14 14:33:38.157 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-14 14:33:38.935 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-14 14:33:53.505 [info] > git config --get commit.template [0ms]
+2026-03-14 14:33:53.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-03-14 14:33:53.521 [info] > git status -z -uall [5ms]
+2026-03-14 14:33:53.522 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]

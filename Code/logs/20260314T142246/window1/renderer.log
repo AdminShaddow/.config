@@ -1,0 +1,14 @@
+2026-03-14 14:22:48.315 [info] Started local extension host with pid 1834.
+2026-03-14 14:22:49.389 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-14 14:22:49.707 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-14 14:22:51.420 [info] [perf] Render performance baseline is 134ms
+2026-03-14 14:23:44.944 [info] Started local extension host with pid 2113.
+2026-03-14 14:23:45.834 [info] MCP Registry configured: https://api.mcp.github.com
+2026-03-14 14:23:45.891 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-03-14 14:23:47.753 [info] [perf] Render performance baseline is 134ms
+2026-03-14 14:23:55.765 [error] [Extension Host] (node:2113) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-03-14 14:24:24.807 [error] Error: ENOENT: no such file or directory, mkdir '/nix/store/03k95c7sskvb0awp4a0s5imdp55wcmxv-vscode-extensions/share/vscode/extensions/.b5416d61-7758-4ce8-9e35-276eac4cc7a0'
+    at async Object.mkdir (node:internal/original-fs/promises:861:10)
+2026-03-14 14:24:24.809 [error] ENOENT: no such file or directory, mkdir '/nix/store/03k95c7sskvb0awp4a0s5imdp55wcmxv-vscode-extensions/share/vscode/extensions/.b5416d61-7758-4ce8-9e35-276eac4cc7a0': Error: ENOENT: no such file or directory, mkdir '/nix/store/03k95c7sskvb0awp4a0s5imdp55wcmxv-vscode-extensions/share/vscode/extensions/.b5416d61-7758-4ce8-9e35-276eac4cc7a0'
+    at async Object.mkdir (node:internal/original-fs/promises:861:10)

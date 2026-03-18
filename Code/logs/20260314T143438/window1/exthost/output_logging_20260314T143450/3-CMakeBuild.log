@@ -1,0 +1,5 @@
+[bookmarks] Loaded 0 bookmarks
+[proc] Executing command: /run/current-system/sw/bin/cmake --version
+[proc] Executing command: /run/current-system/sw/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/marcelb/.local/share/CMakeTools/cmake-tools-kits.json
+[variant] Loaded new set of variants

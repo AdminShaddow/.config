@@ -1,0 +1,41 @@
+2026-03-14 14:22:49.091 [info] Extension host with pid 1834 started
+2026-03-14 14:22:49.225 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-14 14:22:49.256 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-14 14:22:49.360 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-14 14:22:49.373 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-14 14:22:49.431 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-14 14:22:49.567 [info] Eager extensions activated
+2026-03-14 14:22:49.682 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:22:49.685 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:22:49.717 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:22:49.738 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:23:44.155 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-14 14:23:44.168 [info] Extension host with pid 1834 exiting with code 0
+2026-03-14 14:23:45.479 [info] Extension host with pid 2113 started
+2026-03-14 14:23:45.479 [info] Skipping acquiring lock for /home/marcelb/.config/Code/User/workspaceStorage/9bbc656ae26fb83cceee3dfc9c5a6e83.
+2026-03-14 14:23:45.531 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-14 14:23:45.563 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-14 14:23:45.634 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-03-14 14:23:45.670 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-14 14:23:45.747 [info] Eager extensions activated
+2026-03-14 14:23:45.767 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:23:45.769 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:23:45.788 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:23:45.801 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:23:51.836 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-03-14 14:23:55.547 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2026-03-14 14:24:34.467 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2026-03-14 14:24:39.078 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-03-14 14:24:39.178 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-03-14 14:24:39.694 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-14 14:24:39.701 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-14 14:24:39.752 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-14 14:28:26.956 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-14 14:28:27.001 [error] Error: Channel has been closed
+	at n (file:///nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3001)
+	at Object.info (file:///nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3346)
+	at T.info (/nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:45267)
+	at ChildProcess.<anonymous> (/nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:606637)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-14 14:28:27.008 [info] Extension host with pid 2113 exiting with code 0

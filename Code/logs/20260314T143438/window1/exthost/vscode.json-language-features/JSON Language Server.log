@@ -1,0 +1,48 @@
+2026-03-14 14:35:12.039 [info] cancelled
+2026-03-14 14:35:12.042 [info] read schema from vscode: vscode://schemas/launch
+2026-03-14 14:35:16.978 [info] schema change detected vscode://schemas/launch
+2026-03-14 14:35:16.980 [info] read schema from vscode: vscode://schemas/launch
+2026-03-14 14:35:31.259 [info] read schema from vscode: vscode://schemas/tasks
+2026-03-14 14:35:48.426 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:00:08.022 [info] read schema from vscode: vscode://schemas/launch
+2026-03-14 15:09:13.844 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:09:15.575 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:09:29.151 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:09:58.434 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:11:06.844 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:11:59.932 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:12:00.083 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2026-03-14 15:12:00.105 [info] read schema from vscode: vscode://schemas/launch
+2026-03-14 15:12:00.106 [info] read schema from vscode: vscode://schemas/token-styling
+2026-03-14 15:12:00.107 [info] read schema from vscode: vscode://schemas/textmate-colors
+2026-03-14 15:12:00.107 [info] read schema from vscode: vscode://schemas/workbench-colors
+2026-03-14 15:12:01.012 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:12:01.014 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:12:03.701 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:12:03.704 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:12:05.267 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:12:05.269 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:12:07.512 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:12:07.514 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:13:10.548 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:13:10.551 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:14:00.010 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:28:50.996 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:30:16.842 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:54:55.764 [info] schema change detected vscode://schemas/launch
+2026-03-14 15:55:26.039 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:55:26.223 [info] read schema from vscode: vscode://schemas/launch
+2026-03-14 15:55:27.111 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:55:27.116 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:56:12.131 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:56:12.133 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:56:14.380 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:56:14.382 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:56:16.635 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:56:16.639 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:56:21.864 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:56:21.867 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 15:59:59.330 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 15:59:59.332 [info] read schema from vscode: vscode://schemas/settings/folder
+2026-03-14 16:04:10.278 [info] schema change detected vscode://schemas/settings/folder
+2026-03-14 16:04:10.283 [info] read schema from vscode: vscode://schemas/settings/folder

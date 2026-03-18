@@ -1,0 +1,29 @@
+2026-03-16 00:50:47.553 [info] Extension host with pid 23546 started
+2026-03-16 00:50:47.553 [info] Skipping acquiring lock for /home/marcelb/.config/Code/User/workspaceStorage/9bbc656ae26fb83cceee3dfc9c5a6e83.
+2026-03-16 00:50:48.521 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-16 00:50:48.571 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-16 00:50:48.611 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2026-03-16 00:50:49.843 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-16 00:50:49.877 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-03-16 00:50:50.340 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-16 00:50:50.519 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-16 00:50:51.250 [info] Eager extensions activated
+2026-03-16 00:50:51.307 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-16 00:50:51.314 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-16 00:50:51.392 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-16 00:50:51.437 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-03-16 00:51:11.060 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2026-03-16 01:07:36.293 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-03-16 01:20:52.590 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-16 01:20:52.607 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-16 01:20:52.724 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-16 01:22:25.048 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2026-03-16 01:56:18.594 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-16 01:56:18.721 [error] Error: Channel has been closed
+	at n (file:///nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3001)
+	at Object.info (file:///nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:3346)
+	at T.info (/nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:45267)
+	at ChildProcess.<anonymous> (/nix/store/axz721fxdbw4v2hp2ihd4v17ggvyz2xf-vscode-1.109.5/lib/vscode/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:606637)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2026-03-16 01:56:18.764 [info] Extension host with pid 23546 exiting with code 0

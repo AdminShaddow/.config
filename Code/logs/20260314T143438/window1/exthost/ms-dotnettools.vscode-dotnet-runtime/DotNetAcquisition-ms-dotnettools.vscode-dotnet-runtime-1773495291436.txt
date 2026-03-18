@@ -1,0 +1,35 @@
+14.3.2026, 14:34:51 450 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.dotenv for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.mermaid-chat-features for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.prompt for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-2026 for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension alefragnani.project-manager for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension jnoortheen.nix-ide for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+14.3.2026, 14:34:51 451 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cmake-tools for .NET installation requests

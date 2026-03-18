@@ -1,0 +1,7 @@
+[bookmarks] Loaded 0 bookmarks
+[proc] Executing command: /run/current-system/sw/bin/cmake --version
+[proc] Executing command: /run/current-system/sw/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+[proc] Executing command: /run/current-system/sw/bin/gcc -v
+[kit] Found Kit (trusted): GCC 15.2.0 x86_64-unknown-linux-gnu

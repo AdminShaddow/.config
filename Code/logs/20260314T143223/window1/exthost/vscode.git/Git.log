@@ -1,0 +1,46 @@
+2026-03-14 14:32:25.566 [info] [main] Log level: Info
+2026-03-14 14:32:25.566 [info] [main] Validating found git in: "git"
+2026-03-14 14:32:25.566 [info] [main] Using git "2.53.0" from "git"
+2026-03-14 14:32:25.566 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-14 14:32:25.566 [info] > git rev-parse --show-toplevel [4ms]
+2026-03-14 14:32:25.566 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2026-03-14 14:32:25.566 [info] [Model][openRepository] Opened repository (path): /etc/nixos
+2026-03-14 14:32:25.566 [info] [Model][openRepository] Opened repository (real path): /etc/nixos
+2026-03-14 14:32:25.566 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-14 14:32:25.566 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-14 14:32:25.566 [info] > git config --get commit.template [25ms]
+2026-03-14 14:32:25.567 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-03-14 14:32:25.577 [info] > git status -z -uall [6ms]
+2026-03-14 14:32:25.579 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-14 14:32:25.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [108ms]
+2026-03-14 14:32:25.769 [info] > git config --get --local branch.main.vscode-merge-base [59ms]
+2026-03-14 14:32:25.769 [warning] [Git][config] git config failed: Failed to execute git
+2026-03-14 14:32:25.773 [info] > git config --get commit.template [68ms]
+2026-03-14 14:32:25.784 [info] > git reflog main --grep-reflog=branch: Created from *. [11ms]
+2026-03-14 14:32:25.794 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2026-03-14 14:32:25.794 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-03-14 14:32:25.794 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-03-14 14:32:25.801 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2026-03-14 14:32:25.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-03-14 14:32:25.808 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 03b8a5691dd68daadf2d88babca0d2532a6583c1...refs/remotes/origin/main -- [2ms]
+2026-03-14 14:32:25.823 [info] > git status -z -uall [5ms]
+2026-03-14 14:32:25.824 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-03-14 14:32:25.943 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-14 14:32:25.954 [info] > git show --textconv :packages/7-vscode.nix [5ms]
+2026-03-14 14:32:25.955 [info] > git ls-files --stage -- packages/7-vscode.nix [2ms]
+2026-03-14 14:32:25.960 [info] > git cat-file -s 1fad4d2f45f117b0c066f989303d280c96506809 [1ms]
+2026-03-14 14:32:25.998 [info] > git blame --root --incremental 03b8a5691dd68daadf2d88babca0d2532a6583c1 -- packages/7-vscode.nix [2ms]
+2026-03-14 14:32:26.063 [info] > git check-ignore -v -z --stdin [1ms]
+2026-03-14 14:32:38.648 [info] [main] Log level: Info
+2026-03-14 14:32:38.648 [info] [main] Validating found git in: "git"
+2026-03-14 14:32:38.648 [info] [main] Using git "2.53.0" from "git"
+2026-03-14 14:32:38.648 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-14 14:32:38.648 [info] > git rev-parse --show-toplevel [10ms]
+2026-03-14 14:32:38.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-03-14 14:32:38.648 [info] > git rev-parse --show-toplevel [10ms]
+2026-03-14 14:32:38.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-03-14 14:32:38.648 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-14 14:32:38.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-03-14 14:32:38.648 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-14 14:32:39.706 [info] > git rev-parse --show-toplevel [2ms]
+2026-03-14 14:32:39.706 [info] fatal: not a git repository (or any of the parent directories): .git

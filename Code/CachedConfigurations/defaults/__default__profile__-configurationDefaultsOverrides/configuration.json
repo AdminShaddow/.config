@@ -1,0 +1,1 @@
+{"http.systemCertificatesNode":true,"inlineChat.enableV2":true,"chat.tips.enabled":true,"chat.editMode.hidden":true,"explorer.fileNesting.patterns":{"flake.nix":"flake.lock"},"files.associations":{"flake.lock":"json"},"simpleBrowser.useIntegratedBrowser":true}

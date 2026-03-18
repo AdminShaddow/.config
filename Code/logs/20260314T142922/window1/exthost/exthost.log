@@ -1,0 +1,17 @@
+2026-03-14 14:29:23.628 [info] Extension host with pid 6382 started
+2026-03-14 14:29:23.628 [info] Skipping acquiring lock for /home/marcelb/.config/Code/User/workspaceStorage/9bbc656ae26fb83cceee3dfc9c5a6e83.
+2026-03-14 14:29:23.893 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-14 14:29:23.921 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-14 14:29:24.013 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-14 14:29:24.033 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-14 14:29:24.087 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-14 14:29:24.234 [info] Eager extensions activated
+2026-03-14 14:29:24.246 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:29:24.248 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:29:24.270 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:29:24.282 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-03-14 14:29:34.289 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-14 14:29:34.296 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-14 14:29:34.351 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-03-14 14:29:59.300 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-14 14:29:59.320 [info] Extension host with pid 6382 exiting with code 0

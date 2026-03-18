@@ -1,0 +1,78 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "efdf0186059fe7dcfd684b4858ddb715404bda588d90b51acd97b12c120137fe",
+    "telemetry.devDeviceId": "b9945280-296f-4586-94ce-4a16b25967d5",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/marcelb/Schreibtisch/cpp/HelloWorld"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/marcelb/Schreibtisch/cpp/HelloWorld": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 178,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/marcelb/Schreibtisch/cpp/HelloWorld",
+            "backupPath": "/home/marcelb/.config/Code/Backups/aa0654d164d75e5bd48b1036eae9d2bf",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 810,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 178,
+            "auxiliaryBarWidth": 178,
+            "workspaces": {
+                "9bbc656ae26fb83cceee3dfc9c5a6e83": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
